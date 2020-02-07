@@ -11,7 +11,7 @@ public class RequestSummary {
 	public static void main(String[] args) throws Exception {
 
 		if (args.length != 2) {
-			System.err.println("System error 2304");
+			System.err.println("Usage: RequestSummary <input path> <output path>");
 			System.exit(-1);
 		}
 

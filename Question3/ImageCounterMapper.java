@@ -13,7 +13,7 @@ public class ImageCounterMapper extends Mapper<LongWritable, Text, Text, IntWrit
 
 		String line = value.toString();
 
-		//String imageType = "";
+		String imageType;
 		if (line.contains("GET") && line.contains("images")) {
 			if (line.contains(".jpg")) {
 				imageType = "JPG";
